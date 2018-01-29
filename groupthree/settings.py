@@ -75,30 +75,30 @@ TEMPLATES = [
 WSGI_APPLICATION = 'groupthree.wsgi.application'
 
 
-# Database
+ Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-# DATABASES = {
-#      'default': {
-#          'ENGINE': 'django.db.backends.postgresql',
-#          'NAME': 'ddbaudhrcgnkfa',
-#          'USER': 'iomfinqpqtaudl',
-#          'PASSWORD': 'a9997482616c676871595e66ed2b22577fbda9e0c8368a37cabacc7d047ee789',
-#          'HOST': 'ec2-54-235-252-137.compute-1.amazonaws.com',
-#          'PORT': '5432',
-#      }
-#  }
-
 DATABASES = {
-   'default': {
-       'ENGINE': 'django.db.backends.mysql',
-       'NAME': 'groupthree',
-       'HOST': 'localhost',
-       'USER': 'root',
-       'PASSWORD': 'r00t_us3r',
-       'PORT': '3306',
-   }
-}
+      'default': {
+          'ENGINE': 'django.db.backends.postgresql',
+          'NAME': 'ddbaudhrcgnkfa',
+          'USER': 'iomfinqpqtaudl',
+          'PASSWORD': 'a9997482616c676871595e66ed2b22577fbda9e0c8368a37cabacc7d047ee789',
+          'HOST': 'ec2-54-235-252-137.compute-1.amazonaws.com',
+          'PORT': '5432',
+      }
+  }
+
+#DATABASES = {
+#   'default': {
+#       'ENGINE': 'django.db.backends.mysql',
+#       'NAME': 'groupthree',
+#       'HOST': 'localhost',
+#       'USER': 'root',
+#       'PASSWORD': 'r00t_us3r',
+#       'PORT': '3306',
+#   }
+#}
 
 
 # Password validation
